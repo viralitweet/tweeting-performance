@@ -1,0 +1,106 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://api.themoviedb.org/3/tv/1396
+  response:
+    body:
+      string: !!binary |
+        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
+        /wIUTELTiRIAAA==
+    headers:
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Age:
+      - '797'
+      Cache-Control:
+      - public, max-age=28800
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 21 May 2021 17:20:06 GMT
+      ETag:
+      - W/"c1f2c73e4066f221bb5c0448882c2c03"
+      Server:
+      - openresty
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 5e6eb35b7c10ac6713b321ad0e37273a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - -6wwyycVXQbnvJBad8lfdf9yanuLFd4d7Q8_oKioM4AEMYN19YfYAw==
+      X-Amz-Cf-Pop:
+      - BOM51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '1013'
+      X-Memc-Expires:
+      - '2587'
+      X-Memc-Key:
+      - ab62e627808450e8a6d228a45e4cfee1c0ca32e8
+    status:
+      code: 200
+      message: OK
+version: 1
