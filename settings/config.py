@@ -12,3 +12,7 @@ consumer_secret = os.environ.get('API_SECRET')
 access_token = os.environ.get('ACCESS_TOKEN')
 access_token_secret = os.environ.get('ACCESS_TOKEN_SECRET')
 bearer_token = os.environ.get('BEARER_TOKEN')
+
+
+def environ(name):
+    return os.environ.get(name, None)

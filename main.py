@@ -1,7 +1,7 @@
-# from settings import config
-from engine import axium
+from __future__ import print_function
+from tmdbwrapper import TV
 
-axium.get("https://www.google.com")
-axium.post("https://www.google.com")
-axium.put("https://www.google.com")
-axium.delete("https://www.google.com")
+popular = TV.popular()
+
+for number, show in enumerate(popular['results'], start=1):
+    print("{num}. {name} - {pop}".format(num=number,name=show['name'], pop=show['popularity']))
